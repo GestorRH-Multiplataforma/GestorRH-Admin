@@ -1,0 +1,36 @@
+# Compilados y empaquetados
+target/
+*.class
+*.jar
+*.war
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Variables de entorno locales
+.env
+
+# Logs
+logs/
+*.log
+
+# Spring Boot
+spring-pid
