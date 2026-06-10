@@ -10,6 +10,7 @@ y este proyecto sigue [Semantic Versioning](https://semver.org/lang/es/).
 ## [Unreleased]
 
 ### Añadido
+- Añadida dependencia `spring-boot-starter-web` para compatibilidad entre Spring Security y Spring Boot Admin Server (#131)
 - Pipeline CD con GitHub Actions para despliegue automático en Oracle Cloud al hacer merge a `main` (#131)
 - Imagen Docker ARM64 publicada en GitHub Container Registry (GHCR) (#131)
 - Implementación inicial de Spring Boot Admin Server 3.5.8 con Spring Boot 3.5.14 (#131)
