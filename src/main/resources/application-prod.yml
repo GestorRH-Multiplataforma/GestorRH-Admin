@@ -3,10 +3,3 @@ spring:
     user:
       name: ${ADMIN_USER}
       password: ${ADMIN_PASSWORD}
-
-  boot:
-    admin:
-      client:
-        url: http://gestorrh-api-prod:8080/actuator
-        username: ${ACTUATOR_USER}
-        password: ${ACTUATOR_PASSWORD}

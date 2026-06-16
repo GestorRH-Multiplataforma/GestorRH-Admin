@@ -3,6 +3,7 @@ name: CD Pipeline Admin
 on:
   push:
     branches: [ "main" ]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -51,7 +52,7 @@ jobs:
             docker pull ghcr.io/gestorrh-multiplataforma/gestorrh-admin:latest
 
             echo "Reiniciando servicios..."
-            docker compose -f docker-compose.prod.yml up -d --no-build --force-recreate gestorrh-admin
+            docker compose -f docker-compose.prod.yml up -d --no-build --force-recreate admin
 
             echo "Limpiando imágenes antiguas..."
             docker image prune -f
