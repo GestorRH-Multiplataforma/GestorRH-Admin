@@ -3,10 +3,3 @@ spring:
     user:
       name: admin_dev
       password: admin_dev
-
-  boot:
-    admin:
-      client:
-        url: http://localhost:8080/actuator
-        username: actuator_dev
-        password: actuator_dev
