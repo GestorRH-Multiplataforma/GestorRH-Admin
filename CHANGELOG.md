@@ -19,6 +19,9 @@ y este proyecto sigue [Semantic Versioning](https://semver.org/lang/es/).
 - Pipeline CI con GitHub Actions (#131)
 - Pipeline CD con GitHub Actions para despliegue automático en Oracle Cloud al hacer merge a `main` y disparador manual (`workflow_dispatch`) (#131)
 
+### Fixed
+- Configurada la estrategia de cabeceras de proxy inverso (`forward-headers-strategy`) para que el panel genere correctamente las URLs de sus recursos al servirse tras Nginx con HTTPS y prefijo de ruta (#NN)
+
 ---
 
 [Unreleased]: https://github.com/GestorRH-Multiplataforma/GestorRH-Admin/commits/main
